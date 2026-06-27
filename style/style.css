@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.baner {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px;
+}
+.baner div {
+  width: 90%;
+  max-width: 600px;
+  aspect-ratio: 16 / 9.22;
+  background-position: center;
+  background-size: cover;
+}
+.imagebar {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px;
+}
+.imagebar a {
+  width: 80%;
+  aspect-ratio: 16 / 5.29;
+  background-position: center;
+  background-size: cover;
+  max-width: 500px;
+}
+.text {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px;
+}
+.text div {
+  width: 80%;
+  aspect-ratio: 16.4 / 20.29;
+  background-position: center;
+  background-size: cover;
+  max-width: 500px;
+}
+.lokation{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px;
+}.lokation a{
+  width: 80%;
+  aspect-ratio: 20 / 8.29;
+  background-position: center;
+  background-size: cover;
+  max-width: 500px
+}

@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.cuntaner {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+}
+.card {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: right;
+  justify-content: right;
+  width: 90%;
+  max-width: 400px;
+  aspect-ratio: 20 / 7;
+  background-position: center;
+  background-size: cover;
+  margin: 10px;
+}
+.img {
+  position: absolute;
+  width: 100px;
+  max-width: 600px;
+  aspect-ratio: 5 / 5;
+  background-position: center;
+  background-size: cover;
+  margin: 10px;
+  left: 10px;
+  border-radius: 15px;
+}
+
+.cardText {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: right;
+  justify-content: center;
+  width: 60%;
+}
+
+.textName {
+  position: relative;
+  width: 100%;
+  margin: 10px;
+}
+.textPric {
+  position: relative;
+  width: 100%;
+  margin: 10px;
+}
+.textInfo {
+  position: relative;
+  width: 100%;
+  margin: 10px;
+}
